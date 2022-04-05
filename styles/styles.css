@@ -1,0 +1,16 @@
+@import url('accordion.css');
+:root {
+	--main-color: :#087f5b;
+  --grey-color:#343a40;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  color: var(--grey-color);
+}
