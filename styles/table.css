@@ -1,0 +1,28 @@
+table {
+	width: 800px;
+	margin: 100px auto;
+	border-spacing: 0;
+	font-size: 18px;
+	/* border: 1px solid var(--gray-color); */
+	/* border-collapse: collapse; */
+}
+
+td,
+th {
+	/* border: 1px solid var(--gray-color); */
+	text-align: left;
+	padding: 16px 24px;
+}
+
+thead > tr > th {
+	background-color: var(--main-color);
+	color: white;
+	width: 25%;
+}
+
+tbody > tr:nth-child(odd) {
+	background-color: #fafafa;
+}
+tbody > tr:nth-child(even) {
+	background-color: #eee;
+}
